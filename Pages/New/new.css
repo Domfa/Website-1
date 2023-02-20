@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    padding: 15px 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+    background-color: #fbe7d8;
+}
+
+nav h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+}
+
+.sign h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign-up{
+    display: flex;
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: #4D13D1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 15;
+    font-weight: 300;
+    border: none;
+    color: #fff
+}
+
+.hamburger {
+    display: none;
+}
+
+.header{
+    width: (100%-200px);
+    height: 100vh;
+    background-color: #fbe7d8;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.rating h4 {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.write-up {
+    margin: 50px, 0, 0 , 30px;
+}
+
+.write-up h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+.write-up p {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.trial button {
+    width: 150px;
+    height: 50px;
+    background-color: #4D13D1;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.trial a {
+    color: #4D13D1;
+    font-size: 15px;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.image {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.up h2 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.cards {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card h4{
+    padding-top: 15px;
+}
+.card p {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.purple-card {
+    background-color: #4D13D1;
+    height: 400px;
+    width: (100% - 100px);
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.writing {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-2 img {
+    height: 400px;
+    width: 500px;
+}
+
+.writing h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.writing p {
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.writing button {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    color: #4D13D1;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.testimonies{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: (100% - 200px);
+}
+
+.testimony {
+    height: 250px;
+    width: 300px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar div {
+    padding-left: 10px;
+}
+
+.avatar div h4 {
+    font-size: 10px;
+    font-weight: bold;
+    color: #4D13D1;
+}
+
+.avatar div p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.testimony p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.testimony button {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4D13D1;
+}
+
+.footer {
+    background-color: #fbe7d8;
+    margin-top: 100px;  
+    padding: 50px 0;    
+}
+
+.container {
+    width: (100%-200px);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-bio {
+    padding-right: 40px;
+}
+
+.footer-bio p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*Responsive*/
+@media(max-width: 767px) {
+    .footer-col, .footer-bio{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media(max-width: 574px) {
+    /* nav {
+        padding: 15px 40px;
+    }
+
+    nav ul {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #4D13D1;
+    }
+
+    nav ul li {
+        display: block;
+    } */
+
+    section {
+        padding: 20px 30px;
+        width: (100vw - 60px);
+    }
+
+    .header {
+        padding-top: 50px;
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+
+    .header .image {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .rating {
+        display: none;
+    }
+
+    .trial {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .trial-btn {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .purple-card {
+        flex-direction: column;
+    }
+    
+    .image-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-2 img {
+        height: 30px;
+        width: 200px;
+    }
+
+    .footer-col, .footer-bio{
+        width: 100%;
+        padding: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonies {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
